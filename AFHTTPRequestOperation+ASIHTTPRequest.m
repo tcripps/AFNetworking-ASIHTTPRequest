@@ -73,7 +73,7 @@
             [weakDelegate performSelector:didFailSelector withObject:operation];
         }
     }];
-#pragma clan diagnostic pop
+#pragma clang diagnostic pop
 }
 
 @end
